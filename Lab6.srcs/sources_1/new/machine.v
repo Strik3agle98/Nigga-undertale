@@ -22,6 +22,7 @@
 
 module machine(
     output reg[7:0] nextState,
+    output reg[3:0] playerInstructiuon,
     input wire[7:0] state,
     input wire[7:0] inp,
     input wire isDeath,
@@ -37,11 +38,12 @@ module machine(
     parameter ENTER = 4'b0101;
     
     //page enum
-    parameter NULL = 4'b0000;
-    parameter START = 4'b1000;
-    parameter DODGE = 4'b1001;
-    parameter ATTACK = 4'b1010;
-    parameter ACTION = 4'b1011; 
+    parameter NULL = 4'b0000; //blank screen do nothing
+    parameter MENU = 4'b0001; //menu screen, start game, credit and start button
+    parameter START = 4'b1000; //start screen wait game setting
+    parameter DODGE = 4'b1001; //dodge bullets state
+    parameter ATTACK = 4'b1010; //attack monster state
+    parameter ACTION = 4'b1011; //choose action state
     
     wire[3:0] keyboard;
     wire[3:0] menuInp;

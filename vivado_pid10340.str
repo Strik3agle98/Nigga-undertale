@@ -291,3 +291,22 @@ selectCodeEditor("machine.v", 172, 384); // cl (w, cp)
 selectCodeEditor("machine.v", 168, 216); // cl (w, cp)
 // TclEventType: DG_GRAPH_STALE
 // TclEventType: FILE_SET_CHANGE
+// Elapsed time: 125 seconds
+selectCodeEditor("machine.v", 236, 171); // cl (w, cp)
+selectCodeEditor("machine.v", 236, 161); // cl (w, cp)
+// Elapsed time: 304 seconds
+selectCodeEditor("machine.v", 239, 297); // cl (w, cp)
+// Elapsed time: 208 seconds
+selectCodeEditor("machine.v", 26, 245); // cl (w, cp)
+typeControlKey((HResource) null, "machine.v", 'c'); // cl (w, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 824 MB. GUI used memory: 56 MB. Current time: 5/25/20, 3:54:43 PM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 824 MB. GUI used memory: 56 MB. Current time: 5/25/20, 4:24:43 PM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 824 MB. GUI used memory: 55 MB. Current time: 5/25/20, 4:54:44 PM ICT
+// HMemoryUtils.trashcanNow. Engine heap size: 824 MB. GUI used memory: 55 MB. Current time: 5/25/20, 5:24:44 PM ICT
+// Elapsed time: 6982 seconds
+closeMainWindow("Lab6 - [C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.xpr] - Vivado 2018.3"); // cp
+// al (cp): Save Project: addNotify
+dismissDialog("Save Project"); // al (cp)
+selectCodeEditor("machine.v", 333, 256); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE

@@ -23,3 +23,8 @@ update_compile_order -fileset sources_1
 close [ open C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/machine.v w ]
 add_files C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/machine.v
 update_compile_order -fileset sources_1
+close [ open C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/DamageCalculator.v w ]
+add_files C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/DamageCalculator.v
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 26 05:20:28 2020...

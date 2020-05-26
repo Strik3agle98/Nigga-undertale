@@ -15,3 +15,6 @@ update_compile_order -fileset sources_1
 close [ open C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/machine.v w ]
 add_files C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/machine.v
 update_compile_order -fileset sources_1
+close [ open C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/DamageCalculator.v w ]
+add_files C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/DamageCalculator.v
+update_compile_order -fileset sources_1

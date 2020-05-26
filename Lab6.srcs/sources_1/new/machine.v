@@ -20,11 +20,13 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module machine(
+module Machine(
     output reg[7:0] nextState,
     output reg[3:0] playerInstructiuon,
+    output reg isMove,
     input wire[7:0] state,
-    input wire[7:0] inp,
+    input wire[3:0] keyboard,
+    input wire[3:0] menu,
     input wire isDeath,
     input wire clk
     );
@@ -44,11 +46,6 @@ module machine(
     parameter DODGE = 4'b1001; //dodge bullets state
     parameter ATTACK = 4'b1010; //attack monster state
     parameter ACTION = 4'b1011; //choose action state
-    
-    wire[3:0] keyboard;
-    wire[3:0] menuInp;
-    assign keyboard = inp[7:4];
-    assign menuInp = inp[3:0];
     
     wire[3:0] page;
     wire[3:0] substage;

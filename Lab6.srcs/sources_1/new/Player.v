@@ -89,8 +89,8 @@ module Player(
                         if(y>200-size/2) y=200-size/2;
                         end
                 endcase
-                  
-                end                    
+                end
+            4'b0110 : HP = instruction[11:4]; //set HP                      
         endcase
         
         //if(x<0+size/2) x=0+size/2;

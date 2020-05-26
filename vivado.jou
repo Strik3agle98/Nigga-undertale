@@ -2,19 +2,74 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Mon May 25 13:53:51 2020
-# Process ID: 10340
-# Current directory: C:/Users/narin/Documents/Project/Nigga-undertale
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22324 C:\Users\narin\Documents\Project\Nigga-undertale\Lab6.xpr
-# Log file: C:/Users/narin/Documents/Project/Nigga-undertale/vivado.log
-# Journal file: C:/Users/narin/Documents/Project/Nigga-undertale\vivado.jou
+# Start of session at: Tue May 26 11:27:49 2020
+# Process ID: 14100
+# Current directory: C:/Users/Admin/Desktop/HWproject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15144 C:\Users\Admin\Desktop\HWproject\Lab6.xpr
+# Log file: C:/Users/Admin/Desktop/HWproject/vivado.log
+# Journal file: C:/Users/Admin/Desktop/HWproject\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.xpr
+open_project C:/Users/Admin/Desktop/HWproject/Lab6.xpr
 update_compile_order -fileset sources_1
-close [ open C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/machine.v w ]
-add_files C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/machine.v
+close [ open C:/Users/Admin/Desktop/HWproject/Lab6.srcs/sources_1/new/Bullet.v w ]
+add_files C:/Users/Admin/Desktop/HWproject/Lab6.srcs/sources_1/new/Bullet.v
 update_compile_order -fileset sources_1
+<<<<<<< HEAD
 close [ open C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/DamageCalculator.v w ]
 add_files C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/DamageCalculator.v
 update_compile_order -fileset sources_1
+=======
+file mkdir C:/Users/Admin/Desktop/HWproject/Lab6.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Admin/Desktop/HWproject/Lab6.srcs/sim_1/new/testBullet.v w ]
+add_files -fileset sim_1 C:/Users/Admin/Desktop/HWproject/Lab6.srcs/sim_1/new/testBullet.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top testBullet [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source testBullet.tcl
+close_sim
+launch_simulation
+source testBullet.tcl
+close_sim
+launch_simulation
+source testBullet.tcl
+close_sim
+launch_simulation
+source testBullet.tcl
+close_sim
+launch_simulation
+source testBullet.tcl
+close_sim
+launch_simulation
+source testBullet.tcl
+close_sim
+launch_simulation
+source testBullet.tcl
+close_sim
+launch_simulation
+source testBullet.tcl
+synth_design -rtl -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Bullet [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+close_design
+synth_design -rtl -name rtl_1
+close_sim
+launch_simulation
+source testBullet.tcl
+close_sim
+launch_simulation
+source testBullet.tcl
+close_sim
+>>>>>>> origin/Bullets

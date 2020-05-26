@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May 25 13:53:51 2020
+# Process ID: 10340
+# Current directory: C:/Users/narin/Documents/Project/Nigga-undertale
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22324 C:\Users\narin\Documents\Project\Nigga-undertale\Lab6.xpr
+# Log file: C:/Users/narin/Documents/Project/Nigga-undertale/vivado.log
+# Journal file: C:/Users/narin/Documents/Project/Nigga-undertale\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.xpr
+INFO: [Project 1-313] Project file moved from 'E:/HWLab/Lab6' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.ip_user_files', nor could it be found using path 'E:/HWLab/Lab6/Lab6.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 783.563 ; gain = 180.430
+update_compile_order -fileset sources_1
+close [ open C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/machine.v w ]
+add_files C:/Users/narin/Documents/Project/Nigga-undertale/Lab6.srcs/sources_1/new/machine.v
+update_compile_order -fileset sources_1

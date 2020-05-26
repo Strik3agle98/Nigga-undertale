@@ -51,6 +51,7 @@ module Machine(
     wire[3:0] substage;
     assign keyboard = state[7:4];
     assign menuInp = state[3:0];
+    assign page = 1;
     
     
     

@@ -826,3 +826,5 @@ INFO: [USF-XSim-96] XSim completed. Design snapshot 'testPlayer_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 close_sim
 INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 26 11:24:56 2020...
